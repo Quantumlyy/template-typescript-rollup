@@ -4,5 +4,5 @@
 		"allowJs": true,
 		"checkJs": true
 	},
-	"include": ["src", "tests", "jest.config.js"]
+	"include": ["src", "tests", "rollup.config.ts", "jest.config.js"]
 }

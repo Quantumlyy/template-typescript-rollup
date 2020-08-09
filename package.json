@@ -3,6 +3,10 @@
 	"description": "--description--",
 	"version": "1.0.0",
 	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"browser": "dist/index.umd.js",
+	"unpkg": "dist/index.umd.js",
+	"types": "dist/index.d.ts",
 	"author": "QuantumlyTangled <yo@quantumlytangled.com> (https://quantumlytangled.com)",
 	"license": "MIT",
 	"scripts": {
