@@ -1,0 +1,7 @@
+{
+    "inputFiles": ["./src"],
+    "tsconfig": "./src/tsconfig.json",
+    "name": "--name-full--",
+    "mode": "library",
+    "out": "docs"
+}
