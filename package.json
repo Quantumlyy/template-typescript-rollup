@@ -8,9 +8,8 @@
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
 		"update": "yarn upgrade-interactive --latest",
-		"build": "tsc -b src",
-		"clean": "tsc -b src --clean",
-		"watch": "tsc -b src -w",
+		"build": "rollup -c rollup.config.ts",
+		"prepublishOnly": "yarn build",
 		"test": "jest",
 		"test:coverage": "jest --coverage",
 		"sversion": "yarn standard-version"
