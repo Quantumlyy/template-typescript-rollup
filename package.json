@@ -7,7 +7,7 @@
 	"browser": "dist/index.umd.js",
 	"unpkg": "dist/index.umd.js",
 	"types": "dist/index.d.ts",
-	"author": "QuantumlyTangled <yo@quantumlytangled.com> (https://quantumlytangled.com)",
+	"author": "Quantumlyy <yo@quantumly.dev> (https://quantumly.dev)",
 	"license": "MIT",
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
